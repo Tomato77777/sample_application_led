@@ -1,4 +1,4 @@
-ZGN(function() {
+﻿ZGN(function() {
 
   // Terminalのインスタンスを取得します
   var term = ZGN.term(1);
@@ -16,6 +16,6 @@ ZGN(function() {
 
   // OFFボタンをクリック
   $(document).on('click', '#off', function() {
-    term.gpio.digitalWrite(pinNo, ZGN.LOW);     // 消灯
+    term.gpio.digitalWrite(pinNo, ZGN.LOW);     // 消灯__
   });
 });
