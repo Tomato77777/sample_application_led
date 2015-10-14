@@ -8,7 +8,7 @@
 
   // 指定ピンを出力に設定
   term.gpio.pinMode(pinNo, ZGN.OUTPUT);
-  term.gpio.digitalWrite(pinNo, ZGN.HIGH);    // 点灯
+  //term.gpio.digitalWrite(pinNo, ZGN.HIGH);    // 点灯
 
   // ONボタンをクリック
   $(document).on('click', '#on', function() {
